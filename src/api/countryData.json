@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "countryName": "Ukraine",
+    "capital": "Kyiv",
+    "population": "38,229,212",
+    "interestingFacts": "Ukraine, often referred to as the 'breadbasket of Europe,' is the largest country entirely within the continent, and its capital is one of the oldest cities in Europe, dating back more than 1,400 years."
+  },
+  {
+    "id": 2,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": "125,930,000",
+    "interestingFacts": "Japan consists of over 6,800 islands and is home to the oldest company in the world, Kongo Gumi, which was founded in 578 AD."
+  },
+  {
+    "id": 3,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": "38,246,108",
+    "interestingFacts": "Canada has the longest coastline in the world and over half of all the natural lakes globally."
+  },
+  {
+    "id": 4,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": "214,287,300",
+    "interestingFacts": "Brazil is the only country in South America that speaks Portuguese and is home to the Amazon Rainforest, which produces 20% of the world's oxygen."
+  },
+  {
+    "id": 5,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": "26,000,000",
+    "interestingFacts": "Australia is the smallest continent but the largest island and is home to unique species like the platypus and echidna, which are egg-laying mammals."
+  },
+  {
+    "id": 6,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": "109,262,000",
+    "interestingFacts": "Egypt is home to the only remaining original wonder of the ancient world, the Great Pyramid of Giza, and the country has one of the longest histories in the world."
+  },
+  {
+    "id": 7,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": "1,408,000,000",
+    "interestingFacts": "India is the world's largest democracy and has over 1,600 languages, with Hindi and English as official languages."
+  },
+  {
+    "id": 8,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": "65,633,194",
+    "interestingFacts": "France is the most visited country in the world, with Paris known as the 'City of Light,' drawing millions of tourists annually."
+  },
+  {
+    "id": 9,
+    "countryName": "South Africa",
+    "capital": "Pretoria (executive), Bloemfontein (judicial), Cape Town (legislative)",
+    "population": "59,961,000",
+    "interestingFacts": "South Africa is known as the 'Rainbow Nation' due to its diversity and has three capital cities to separate the branches of government."
+  },
+  {
+    "id": 10,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": "1,412,600,000",
+    "interestingFacts": "China is the most populous country in the world and has one of the world's oldest continuous civilizations, dating back over 4,000 years."
+  },
+  {
+    "id": 11,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": "59,037,000",
+    "interestingFacts": "Italy has more UNESCO World Heritage sites than any other country and is the birthplace of the Roman Empire and the Renaissance."
+  },
+  {
+    "id": 12,
+    "countryName": "Norway",
+    "capital": "Oslo",
+    "population": "5,465,000",
+    "interestingFacts": "Norway is known for its stunning fjords and has a high standard of living, ranking consistently as one of the happiest countries in the world."
+  },
+  {
+    "id": 13,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "population": "126,014,024",
+    "interestingFacts": "Mexico introduced chocolate, chilies, and corn to the world and is home to one of the largest pyramids, the Pyramid of Cholula."
+  },
+  {
+    "id": 14,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": "83,166,711",
+    "interestingFacts": "Germany is known for its engineering excellence and is the birthplace of many renowned composers, such as Beethoven, Bach, and Brahms."
+  },
+  {
+    "id": 15,
+    "countryName": "Saudi Arabia",
+    "capital": "Riyadh",
+    "population": "35,013,414",
+    "interestingFacts": "Saudi Arabia is the birthplace of Islam and home to the two holiest cities for Muslims, Mecca and Medina."
+  },
+  {
+    "id": 16,
+    "countryName": "South Korea",
+    "capital": "Seoul",
+    "population": "51,744,876",
+    "interestingFacts": "South Korea has one of the world's fastest internet speeds and a culture that greatly emphasizes technological advancement and innovation."
+  },
+  {
+    "id": 17,
+    "countryName": "Argentina",
+    "capital": "Buenos Aires",
+    "population": "46,234,830",
+    "interestingFacts": "Argentina is known for its passionate tango dance, diverse landscapes, and as the birthplace of famous figures like Che Guevara and Pope Francis."
+  },
+  {
+    "id": 18,
+    "countryName": "Turkey",
+    "capital": "Ankara",
+    "population": "85,341,241",
+    "interestingFacts": "Turkey is a transcontinental country that bridges Europe and Asia, with Istanbul as the only city in the world located on two continents."
+  },
+  {
+    "id": 19,
+    "countryName": "Sweden",
+    "capital": "Stockholm",
+    "population": "10,500,000",
+    "interestingFacts": "Sweden is known for its high quality of life, innovation, and commitment to sustainability, with a large proportion of its land covered in forests."
+  },
+  {
+    "id": 20,
+    "countryName": "New Zealand",
+    "capital": "Wellington",
+    "population": "5,084,300",
+    "interestingFacts": "New Zealand was the first country to give women the right to vote and is known for its beautiful landscapes, which have been featured in numerous films."
+  }
+]
