@@ -4,11 +4,14 @@ import {Home} from "./pages/Home.jsx";
 import {About} from "./pages/About.jsx";
 import {Country} from "./pages/Country.jsx";
 import {Contact} from "./pages/Contact.jsx";
+import {AppLayout} from "./components/Layout/AppLayout.jsx";
+import {ErrorPage} from "./pages/ErrorPage.jsx";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <AppLayout/>,
+        errorElement: <ErrorPage/>,
         children: [
             {
                 path: "/",

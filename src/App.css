@@ -65,3 +65,8 @@ button {
     -o-border-radius: 1.5rem;
     margin-top: 1.6rem;
 }
+
+.container {
+    max-width: 140rem;
+    margin: auto;
+}
