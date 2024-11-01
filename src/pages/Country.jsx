@@ -1,14 +1,28 @@
-import {useEffect, useTransition} from "react";
+import {useEffect, useState, useTransition} from "react";
 import {getCountryData} from "../api/postApi.jsx";
+import {Loader} from "../components/UI/Loader.jsx";
+import {CountryCard} from "../components/UI/CountryCard.jsx";
 
 export const Country = () => {
     const [isPending, startTransition] = useTransition();
+    const [countries, setCountries] = useState([]);
 
     useEffect(() => {
-        getCountryData()
+        startTransition(async () => {
+            const res = await getCountryData()
+            setCountries(res.data)
+        })
     }, []);
 
-    if (isPending) return <h1>Loading...</h1>;
+    if (isPending) return <Loader/>;
 
-    return
+    return <section className="country-section">
+        <ul className="grid grid-four-cols">
+            {
+                countries.map((country) => {
+                    return <CountryCard country={country} key={country.id}/>
+                })
+            }
+        </ul>
+    </section>
 }
