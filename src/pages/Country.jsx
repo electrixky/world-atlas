@@ -35,7 +35,14 @@ export const Country = () => {
 
     return <section className="country-section">
 
-        <SearchFilter search={search} setSearch={setSearch} filter={filter} setFilter={setFilter}/>
+        <SearchFilter
+            search={search}
+            setSearch={setSearch}
+            filter={filter}
+            setFilter={setFilter}
+            countries={countries}
+            setCountries={setCountries}
+        />
 
         <ul className="grid grid-four-cols">
             {

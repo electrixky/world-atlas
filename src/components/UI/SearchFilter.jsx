@@ -1,4 +1,4 @@
-export const SearchFilter = ({search, setSearch, filter, setFilter}) => {
+export const SearchFilter = ({search, setSearch, filter, setFilter, countries, setCountries}) => {
     const handleInputChange = (e) => {
         e.preventDefault()
         setSearch(e.target.value)
@@ -9,8 +9,28 @@ export const SearchFilter = ({search, setSearch, filter, setFilter}) => {
         setFilter(e.target.value)
     }
 
+    const sortCountries = (value) => {
+        const sortCountry = [...countries].sort((a, b) => {
+            return value === "asc"
+                ? a.name.common.localeCompare(b.name.common)
+                : b.name.common.localeCompare(a.name.common)
+        })
+        setCountries(sortCountry)
+    }
+
     return <section className="section-searchFilter container">
-        <input type="text" placeholder="Search..." value={search} onChange={handleInputChange}/>
+        <div>
+            <input type="text" placeholder="Search..." value={search} onChange={handleInputChange}/>
+        </div>
+
+        <div>
+            <button onClick={() => sortCountries("asc")}>Asc</button>
+        </div>
+
+        <div>
+            <button onClick={() => sortCountries("desc")}>Desc</button>
+        </div>
+
         <div>
             <select value={filter} onChange={handleSelectChange} className="select-section">
                 <option value="All">All</option>
