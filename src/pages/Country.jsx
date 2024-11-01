@@ -26,7 +26,12 @@ export const Country = () => {
         return country
     }
 
-    const filteredCountries = countries.filter((country) => searchCountry(country))
+    const filterRegion = (country) => {
+        if (filter === "All") return country
+        return country.region === filter
+    }
+
+    const filteredCountries = countries.filter((country) => searchCountry(country) && filterRegion(country))
 
     return <section className="country-section">
 
