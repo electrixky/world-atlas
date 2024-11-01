@@ -281,3 +281,7 @@ nav ul {
         transform: rotate(1turn)
     }
 }
+
+.flag {
+    max-width: 100%;
+}

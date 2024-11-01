@@ -4,7 +4,7 @@ export const CountryCard = ({country}) => {
     const {flags, name, population, region, capital} = country
     return <li className="card country-card">
         <div className="container-card bg-white-box">
-            <img src={flags.svg} alt={flags.alt}/>
+            <img src={flags.svg} alt={flags.alt} className="flag"/>
             <div className="countryInfo">
                 <p className="card-title">{name.common.length > 15 ? name.common.slice(0, 15) + "..." : name.common}</p>
                 <p><span className="card-description">Population: </span>{population.toLocaleString()}</p>
