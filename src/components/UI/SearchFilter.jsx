@@ -1,3 +1,5 @@
+import {FaSearch} from "react-icons/fa";
+
 export const SearchFilter = ({search, setSearch, filter, setFilter, countries, setCountries}) => {
     const handleInputChange = (e) => {
         e.preventDefault()
@@ -19,8 +21,10 @@ export const SearchFilter = ({search, setSearch, filter, setFilter, countries, s
     }
 
     return <section className="section-searchFilter container">
-        <div>
-            <input type="text" placeholder="Search..." value={search} onChange={handleInputChange}/>
+        <div className="section-search">
+            <input type="text" placeholder="Search..." value={search} onChange={handleInputChange}
+                   className="section-searchFilter__search"/>
+            <FaSearch className="search-icon" size="15px"/>
         </div>
         <div className="section-searchFilter__buttons">
             <div>

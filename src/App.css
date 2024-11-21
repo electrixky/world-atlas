@@ -347,3 +347,33 @@ nav ul {
         box-shadow: 0 3px #666;
     }
 }
+
+.section-searchFilter__search {
+    padding: 10px 30px 10px 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    min-width: 200px;
+    color: #fff;
+    font-size: 16px;
+
+    &::-webkit-input-placeholder {
+        color: #999;
+    }
+
+    &::-moz-placeholder {
+        color: #999;
+    }
+}
+
+.section-search {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
