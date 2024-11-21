@@ -318,3 +318,32 @@ nav ul {
 .flag {
     max-width: 100%;
 }
+
+.country-section {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.section-searchFilter {
+    display: flex;
+    padding: 30px 0 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-searchFilter__buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.section-searchFilter button {
+    &:hover {
+        background-color: #424242;
+    }
+
+    &:active {
+        background-color: #626262;
+        transform: translateY(2px);
+        box-shadow: 0 3px #666;
+    }
+}

@@ -22,13 +22,14 @@ export const SearchFilter = ({search, setSearch, filter, setFilter, countries, s
         <div>
             <input type="text" placeholder="Search..." value={search} onChange={handleInputChange}/>
         </div>
+        <div className="section-searchFilter__buttons">
+            <div>
+                <button onClick={() => sortCountries("asc")}>Asc</button>
+            </div>
 
-        <div>
-            <button onClick={() => sortCountries("asc")}>Asc</button>
-        </div>
-
-        <div>
-            <button onClick={() => sortCountries("desc")}>Desc</button>
+            <div>
+                <button onClick={() => sortCountries("desc")}>Desc</button>
+            </div>
         </div>
 
         <div>
